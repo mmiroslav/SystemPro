@@ -16,8 +16,8 @@ body{
 }
 .maplist{
     font-size: 1.2em;
+     width: 350px;
 }
 .mlistitem:hover{
-    font-size: 1.8em;
-    font-family:sans-serif;
+   font-size: 1.8em;
 }
