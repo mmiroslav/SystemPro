@@ -14,3 +14,10 @@ body{
     background-color: red;
     /*COPYRIGHT D J U R E N D I C*/
 }
+.maplist{
+    font-size: 1.2em;
+}
+.mlistitem:hover{
+    font-size: 1.8em;
+    font-family:sans-serif;
+}
