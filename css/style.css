@@ -10,14 +10,50 @@ root {
     display: block;
 }
 
+h1{
+    font-size: 1.5em;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
 body{
-    background-color: red;
+    font-family: Arial,Helvetica,sans-serif;
+        
+    
+    background-color: coral;
     /*COPYRIGHT D J U R E N D I C*/
 }
-.maplist{
-    font-size: 1.2em;
-     width: 350px;
+
+.footer {
+    background-color: white;
+    font-size: 0.6em;
+    text-align: center;
+    width: 80%;
+    
+    /*centriranje*/
+    margin: auto;
+    
+    
 }
-.mlistitem:hover{
-   font-size: 1.8em;
+
+.header {
+    background-color: buttonface;
+}
+
+.navigation {
+    background-color: gold;
+}
+
+.content {
+    background-color: whitesmoke;
+}
+
+.wraper {
+    max-width: 630px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navigation li {
+    display: inline;
+    margin: 0 10px;
 }
