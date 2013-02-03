@@ -66,11 +66,25 @@ body{
 .maplist{
     width: 350px;
 }
+.maplist li a:visited{
+    text-decoration: none;
+    color: #ffffff;
+}
+.maplist li a{
+    text-decoration: none;
+    color: #ffffff;
+}
 .mlistitem{
     font-size: 1.0em;
+    color:#ffffff;
 }
 .mlistitem:hover{
     font-size: 1.6em;
+    color:#ffffff;
+}
+.mlistitem:visited{
+    text-decoration: none;
+    color: #ffffff;
 }
 
 /*Navigacija*/
