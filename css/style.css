@@ -70,10 +70,21 @@ body{
     padding: 10px;
     border-bottom-style: solid;
     border-bottom-width: 3px;
-    border-bottom-color: firebrick;
+    border-bottom-color: #666666;
+    background-color: #999999;
+    color: #FFFFFF;
 }
-
+.navigation li a:visited{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navigation li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+}
 .navigation li:hover {
-    background-color: dodgerblue;
-    border-bottom-color: lemonchiffon;
+    background-color: #666666;
+    border-bottom-color: #FFFFFF;
 }
