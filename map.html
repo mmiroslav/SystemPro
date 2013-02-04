@@ -3,7 +3,22 @@
     <head>
         <title></title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/> 
+        <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("ul li").mouseenter(function(){
+                    $(this).animate({
+                        left: '+=25'
+                    });
+                });
+                $("ul li").mouseleave(function(){
+                    $(this).animate({
+                        left: '-=25'
+                    });
+                });
+            });
+        </script>
     </head>
     <body>
         <div class="wraper">
@@ -11,14 +26,13 @@
 
             </div>
             <h1>Sitemap</h1> <br>
-            <font color="white">Hover over an item to view it larger.</font><br>
             <div class="maplist">
                 <ul>
-                    <li class="mlistitem"><a href="index.html">Home</a></li>
-                    <li class="mlistitem"><a href="about.html">About</a></li>
-                    <li class="mlistitem"><a href="Courses.html">Courses</a></li>
-                    <li class="mlistitem"><a href="map.html">Map</a></li>
-                    <li class="mlistitem"><a href="Contact.html">Contact</a></li>
+                    <li id ="home" class="mlistitem"><a href="index.html">Home</a></li>
+                    <li id ="about" class="mlistitem"><a href="about.html">About</a></li>
+                    <li id ="courses" class="mlistitem"><a href="Courses.html">Courses</a></li>
+                    <li id ="map" class="mlistitem"><a href="map.html">Map</a></li>
+                    <li id ="contact" class="mlistitem"><a href="Contact.html">Contact</a></li>
                 </ul>
             </div>
             <div class="footer">

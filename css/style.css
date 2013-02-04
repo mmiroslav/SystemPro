@@ -77,10 +77,7 @@ body{
 .mlistitem{
     font-size: 1.0em;
     color:#ffffff;
-}
-.mlistitem:hover{
-    font-size: 1.6em;
-    color:#ffffff;
+    position: relative;
 }
 .mlistitem:visited{
     text-decoration: none;
